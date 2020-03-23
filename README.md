@@ -10,12 +10,12 @@ Minigame on web browser develop by using ReactJS framwork
  #### Runing project
  ##### Dev environment
 ```
-cd .\app\ // Go to app directory
+cd app/ // Go to app directory
 npm install
 npm run dev
 ```
 ##### Production environment
 ```
-cd .\app\ // Go to app directory
+cd app/ // Go to app directory
 npm run production
 ```
