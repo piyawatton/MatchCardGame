@@ -1,0 +1,20 @@
+@import '../stylesheet/theme.scss';
+
+.GamePanel {
+    background: $darkblue;
+    overflow-wrap: break-word;
+
+    &__Menu {
+        margin: 20px 0;
+    }
+
+    &__Button {
+        margin: 5px auto;
+        max-width: 150px;
+    }
+    
+    &__ScoreSummary {
+        text-align: center;
+    }
+
+}

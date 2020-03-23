@@ -1,0 +1,43 @@
+@import '../../stylesheet/theme.scss';
+
+.Card {
+    border-radius: 5px;
+    border: 2px solid $borderColor;
+    height: 200px;
+    font-size: 85px;
+    text-align: center;
+    line-height: 1;
+    margin: 15px 0;
+    transition: opacity 300ms linear;
+    
+    &FaceUp {
+        background: $white;
+        color: $red;
+    }
+    
+    &FaceDown {
+        background: $red;
+        color: $white;
+    }
+
+    &__Value {
+        margin-top: 10px
+    }
+
+    &__Dot {
+        display: inline-block;
+        background-color: $red;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        margin: 0 3px;
+    }
+
+    &-enter {
+        opacity: 0;
+        &-done {
+            opacity: 1;
+        }
+    }
+
+}

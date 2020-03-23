@@ -1,0 +1,19 @@
+@import '../stylesheet/theme.scss';
+
+body {
+    background: $darkblue;
+    color: $yellow;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.Login {
+    text-align: center;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+
+    &__Form {
+        margin: 20px 0;
+    }
+}
+
